@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(81, 81, 243, 0.919);
+}
+
+
+header{
+    background-color: rgba(2, 2, 250, 0.816);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+header ul, a{
+    text-decoration: none;
+    list-style: none;
+    color: orange;
+    font-weight: 800;
+}
+
+header ul, li{
+    display: inline-block;
+    padding: 0 20px;
+   
+}
+
+header img{
+    border-radius: 50%;
+}
+
+header li a:hover{
+    color: red;
+}
+
+header li a:active{
+    color: rgba(225, 22, 22, 0.818);
+}
+
+#about{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.container-about{
+   text-align: center;
+   background-color: rgba(2, 2, 250, 0.816);
+   border-radius: 15px;
+   width: 600px;
+   margin-top: 50px;
+}
+
+.container-about h2{
+    color: orange;
+    padding: 20px;
+}
+
+.container-about img{
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.container-about p{
+    color: aliceblue;
+    margin: 0 50px 20px 50px;
+}
+
+.life-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.timeline{
+    background-color: blue;
+    margin-top: 20px;
+    text-align: center;
+    width: 350px;
+    border-radius: 15px;
+}
+
+.timeline h3{
+    color: orange;
+    padding: 20px;
+   
+}
+
+.timeline p{
+    color: aliceblue;
+    margin: 20px 50px 0 50px;
+    padding-bottom: 20px;
+   
+
+}
+
+.timeline img{
+    border-radius: 50%;
+}
+
+#life{
+  padding-top: 50px;
+}
+
+#life h2{
+  margin-top: 100px;
+  margin-bottom: 30px;
+  color: orange;
+  text-align: center;
+
+}
+
+#hobbies h2{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    color: orange;
+    text-align: center;
+}
+
+.container-hob{
+    float: left;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+  
+   
+}
+
+.clear{
+    clear: both;
+}
+
+figcaption{
+    color: orange;
+    margin-bottom: 1rem;
+    font-size: larger;
+}
+
+#hobbies{
+    padding-top: 70px;
+}
+
+#hobbies p{
+    color: aliceblue;
+    font-size: large;
+    margin-right: 100px;
+   
+}
+
+#favorites{
+    padding-top: 50px;
+}
+#favorites h2{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    color: orange;
+    text-align: center;
+}
+
+#favorites p{
+    color: aliceblue;
+    font-size: large;
+    margin-right: 100px;
+}
+
+#friends{
+   padding-top: 50px;
+}
+
+#friends h2{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    color: orange;
+    text-align: center;
+}
+
+#friends p{
+    color: aliceblue;
+    font-size: large;
+    margin-right: 100px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
